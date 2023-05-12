@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="biblioteca">
+        <complexType>
+            <all>
+                <element name="libros">
+                    <complexType>
+                        <sequence>
+                            <element name="libro" minOccurs="0" maxOccurs="unbounded">
+                                <complexType> 
+                                    <all>
+                                        <element name="titulo" type="string" maxOccurs="1"></element>
+                                        <element name="capitulos">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="capitulo_01">
+                                                        <complexType>
+                                                            <all>
+                                                                <element name="titulo" type="string"></element>
+                                                                <element name="contenido">
+                                                                    <complexType>
+                                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                                    </complexType>
+                                                                </element>
+                                                            </all>
+                                                            <attribute name="num_pag" type="integer" use="optional"></attribute>
+                                                        </complexType>
+                                                    </element>
+                                                    <element name="capitulo_02">
+                                                        <complexType>
+                                                            <all>
+                                                                <element name="titulo" type="string"></element>
+                                                                <element name="contenido">
+                                                                    <complexType>
+                                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                                    </complexType>
+                                                                </element>
+                                                            </all>
+                                                            <attribute name="num_pag" type="integer" use="optional"></attribute>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                        <element name="indice"></element>
+                                        <element name="sinopsis" type="string"></element>
+                                    </all>
+                                    <attribute name="id" type="string" use="required"></attribute>
+                                    <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                    <attribute name="num_pag" type="integer" use="optional"></attribute>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+
+                <element name="revistas">
+                    <complexType>
+                        <sequence>
+                            <element name="revista" minOccurs="0" maxOccurs="unbounded">
+                            <complexType>
+                                <all>
+                                    <element name="titulo" type="string"></element>
+                                    <element name="num_revista" type="integer"></element>
+                                    <element name="indice" type="string"></element>
+                                    <element name="seccion_01">
+                                        <complexType>
+                                            <all>
+                                                <element name="nombre" type="string"></element>
+                                                <element name="contenido">
+                                                    <complexType>
+                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                    </complexType>
+                                                </element>
+                                            </all>
+                                            <attribute name="num_pag" type="integer" use="optional"></attribute>
+                                        </complexType>
+                                    </element>
+                                    <element name="seccion_02">
+                                        <complexType>
+                                            <all>
+                                                <element name="nombre" type="string"></element>
+                                                <element name="contenido">
+                                                    <complexType>
+                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                    </complexType>
+                                                </element>
+                                            </all>
+                                            <attribute name="num_pag" type="integer" use="optional"></attribute>
+                                        </complexType>
+                                    </element>
+                                </all>
+                                <attribute name="id" type="string" use="required"></attribute>
+                                <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                <attribute name="num_pag" type="integer" use="optional"></attribute>
+                            </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+
+                <element name="periodicos">
+                    <complexType>
+                        <sequence>
+                            <element name="periodico" minOccurs="0" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="seccion"  minOccurs="0" maxOccurs="unbounded">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="articulo_01">
+                                                        <complexType>
+                                                            <all>
+                                                                <element name="titulo" type="string"></element>
+                                                                <element name="contenido">
+                                                                    <complexType>
+                                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                                    </complexType>
+                                                                </element>
+                                                            </all>
+                                                            <attribute name="autor" type="string" use="required"></attribute>
+                                                        </complexType>
+                                                    </element>
+                                                    <element name="articulo_02">
+                                                        <complexType>
+                                                            <all>
+                                                                <element name="titulo" type="string"></element>
+                                                                <element name="contenido">
+                                                                    <complexType>
+                                                                        <attribute name="info" type="string" use="optional"></attribute>
+                                                                    </complexType>
+                                                                </element>
+                                                            </all>
+                                                            <attribute name="autor" type="string" use="required"></attribute>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                                <attribute name="tipo_seccion" type="string"></attribute>
+                                            </complexType>
+                                        </element>
+                                        <element name="indice"></element>
+                                    </sequence>
+                                    <attribute name="id" type="string" use="required"></attribute>
+                                    <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                    <attribute name="fecha_publi" type="date" use="optional"></attribute>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </all>
+        </complexType>
+    </element>
+</schema>

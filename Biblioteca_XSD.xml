@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
-
-<biblioteca>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation= "Biblioteca.xsd">
     <libros>
 
         <libro id="L0001" tipo_clase="novela" num_pag="50">
@@ -128,11 +127,11 @@
             </seccion_02>
         </revista>
         
-    </revistas>
+    </revistas> 
 
     <periodicos>
 
-        <periodico id="P0001" tipo_clase="nacional" fecha_publi="01/04/2023">
+        <periodico id="P0001" tipo_clase="nacional" fecha_publi="2023-04-01">
 
             <seccion tipo_seccion="economica"></seccion>
                 <articulo_01 autor="Diego">
