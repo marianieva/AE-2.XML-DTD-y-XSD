@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
+
+<biblioteca>
+    <libros>
+
+        <libro id="L0001" tipo_clase="novela" num_pag="50">
+            <titulo>La casa verde</titulo>
+            <capitulos>
+                <capitulo_01 num_pag="4">
+                    <titulo>Bienvenido a mi casa</titulo>
+                    <contenido info="www.piliymili.com"></contenido>
+                </capitulo_01>
+                <capitulo_02 num_pag="24">
+                    <titulo>Adiós, muy buenas</titulo>
+                    <contenido info="www.piliymili.com"></contenido>
+                </capitulo_02>
+            </capitulos>
+            <indice></indice>
+            <sinopsis>La historia de cómo mi casa llegó a ser mi casa y la transformé</sinopsis>
+        </libro>
+
+        <libro id="L0002" tipo_clase="infantil" num_pag="25">
+            <titulo>Los animalitos</titulo>
+            <capitulos>
+                <capitulo_01 num_pag="2">
+                    <titulo>Mamíferos</titulo>
+                    <contenido info="www.losanimalitos.com"></contenido>
+                </capitulo_01>
+                <capitulo_02 num_pag="15">
+                    <titulo>Reptiles</titulo>
+                    <contenido info="www.losanimalitos.com"></contenido>
+                </capitulo_02>
+            </capitulos>
+            <indice></indice>
+            <sinopsis>Una breve historia sobre los animales</sinopsis>
+        </libro>
+
+        <libro id="L0003" tipo_clase="didáctico" num_pag="60">
+            <titulo>La teoría de Darwin</titulo>
+            <capitulos>
+                <capitulo_01 num_pag="5">
+                    <titulo>El origen de la vida</titulo>
+                    <contenido info="www.teoriadarwin.com"></contenido>
+                </capitulo_01>
+                 <capitulo_02 num_pag="33">
+                    <titulo>Teoría de la adaptación</titulo>
+                    <contenido info="www.teoriadarwin.com"></contenido>
+                </capitulo_02>
+            </capitulos>
+            <indice></indice>
+            <sinopsis>Simposio sobre la teoría de Darwin y todas sus ramas</sinopsis>
+        </libro>
+
+    </libros>
+
+
+    <revistas>
+
+        <revista id="R0001" tipo_clase="informática" num_pag="66">
+            <titulo>Lenguajes de marcas</titulo>
+            <num_revista>111</num_revista>
+            <indice></indice>
+            <seccion_01 num_pag="2">
+                <nombre>XML</nombre>
+                <contenido info="www.lenguajesdemarcas.com"></contenido>
+            </seccion_01>
+            <seccion_02 num_pag="5">
+                <nombre>JSON</nombre>
+                <contenido info="www.lenguajesdemarcas.com"></contenido>
+            </seccion_02>
+        </revista>
+
+        <revista id="R0002" tipo_clase="corazón" num_pag="20">
+            <titulo>El corazón</titulo>
+            <num_revista>222</num_revista>
+            <indice></indice>
+            <seccion_01 num_pag="6">
+                <nombre>Nacional</nombre>
+                <contenido info="www.elcorazon.com"></contenido>
+            </seccion_01>
+            <seccion_02 num_pag="14">
+                <nombre>Internacional</nombre>
+                <contenido info="www.elcorazon.com"></contenido>
+            </seccion_02>
+        </revista>
+
+        <revista id="R0003" tipo_clase="coches" num_pag="30">
+            <titulo>Motores al límite</titulo>
+            <num_revista>333</num_revista>
+            <indice></indice>
+            <seccion_01 num_pag="3">
+                <nombre>Coches familiares</nombre>
+                <contenido info="www.motoresallimite.com"></contenido>
+            </seccion_01>
+            <seccion_02 num_pag="25">
+                <nombre>Coches deportivos</nombre>
+                <contenido info="www.motoresallimite.com"></contenido>
+            </seccion_02>
+        </revista>
+
+        <revista id="R0004" tipo_clase="investigación" num_pag="40">
+            <titulo>Technical Sciences</titulo>
+            <num_revista>444</num_revista>
+            <indice></indice>
+            <seccion_01 num_pag="4">
+                <nombre>Biología</nombre>
+                <contenido info="www.technicalsciences.com"></contenido>
+            </seccion_01>
+            <seccion_02 num_pag="35">
+                <nombre>Química</nombre>
+                <contenido info="www.technicalsciences.com"></contenido>
+            </seccion_02>
+        </revista>
+
+        <revista id="R0005" tipo_clase="otras" num_pag="50">
+            <titulo>Caza y pesca</titulo>
+            <num_revista>555</num_revista>
+            <indice></indice>
+            <seccion_01 num_pag="2">
+                <nombre>Caza</nombre>
+                <contenido info="www.cazaypesca.com"></contenido>
+            </seccion_01>
+            <seccion_02 num_pag="45">
+                <nombre>Pesca</nombre>
+                <contenido info="www.cazaypesca.com"></contenido>
+            </seccion_02>
+        </revista>
+        
+    </revistas>
+
+    <periodicos>
+
+        <periodico id="P0001" tipo_clase="nacional" fecha_publi="01/04/2023">
+
+            <seccion tipo_seccion="economica"></seccion>
+                <articulo_01 autor="Diego">
+                    <titulo>Economía doméstica</titulo>
+                    <contenido info="www.elperiodico.com/economia"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Carla">
+                    <titulo>Economía laboral</titulo>
+                    <contenido info="www.elperiodico.com/economia"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="opinion"></seccion>
+                <articulo_01 autor="Virginia">
+                    <titulo>La obsolescencia programada</titulo>
+                    <contenido info="www.elperiodico.com/opinion"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Carlos">
+                    <titulo>El reciclaje moderno</titulo>
+                    <contenido info="www.elperiodico.com/opinion"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="deportes"></seccion>
+                <articulo_01 autor="Daniel">
+                    <titulo>Fútbol</titulo>
+                    <contenido info="www.elperiodico.com/deportes"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Diana">
+                    <titulo>Baloncesto</titulo>
+                    <contenido info="www.elperiodico.com/deportes"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="nacional"></seccion>
+                <articulo_01 autor="Bruno">
+                    <titulo>Elecciones municipales</titulo>
+                    <contenido info="www.elperiodico.com/nacional"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Beatriz">
+                    <titulo>Elecciones autonómicas</titulo>
+                    <contenido info="www.elperiodico.com/nacional"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="internacional"></seccion>
+                <articulo_01 autor="Esteban">
+                    <titulo>Guerra en Ucrania</titulo>
+                    <contenido info="www.elperiodico.com/internacional"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Elena">
+                    <titulo>Estados Unidos</titulo>
+                    <contenido info="www.elperiodico.com/internacional"></contenido>
+                </articulo_02>
+            
+            <indice></indice>
+        </periodico>
+
+        <periodico id="P0002" tipo_clase="internacional" fecha_publi="02/05/2023">
+
+            <seccion tipo_seccion="economica"></seccion>
+                <articulo_01 autor="Lucas">
+                    <titulo>Cómo ahorrar en la cesta de la compra</titulo>
+                    <contenido info="www.elinternacional.com/economia"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Lucía">
+                    <titulo>Cómo cambiar de hipoteca</titulo>
+                    <contenido info="www.elinternacional.com/economia"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="opinion"></seccion>
+                <articulo_01 autor="Mario">
+                    <titulo>La libre elección de médico</titulo>
+                    <contenido info="www.elinternacional.com/opinion"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Marina">
+                    <titulo>La moda del veganismo</titulo>
+                    <contenido info="www.elinternacional.com/opinion"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="deportes"></seccion>
+                <articulo_01 autor="Nacho">
+                    <titulo>Balonmano</titulo>
+                    <contenido info="www.elinternacional.com/deportes"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Nadia">
+                    <titulo>Natación</titulo>
+                    <contenido info="www.elinternacional.com/deportes"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="nacional"></seccion>
+                <articulo_01 autor="Pablo">
+                    <titulo>La sequía</titulo>
+                    <contenido info="www.elinternacional.com/nacional"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Paula">
+                    <titulo>Incendios forestales</titulo>
+                    <contenido info="www.elinternacional.com/nacional"></contenido>
+                </articulo_02>
+           
+            <seccion tipo_seccion="internacional"></seccion>
+                <articulo_01 autor="Sergio">
+                    <titulo>La evolución de China</titulo>
+                    <contenido info="www.elinternacional.com/internacional"></contenido>
+                </articulo_01>
+                <articulo_02 autor="Sara">
+                    <titulo>La pobreza en África</titulo>
+                    <contenido info="www.elinternacional.com/internacional"></contenido>
+                </articulo_02>
+            
+            <indice></indice>
+        </periodico>
+        
+    </periodicos>
+
+</biblioteca>

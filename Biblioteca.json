@@ -1,0 +1,410 @@
+{"biblioteca":{
+
+    "libros": [
+
+        {"libro": {
+            "id": "L0001",
+            "tipo": "novela",
+            "num_pag": 50,
+            "titulo": "La casa verde",
+            "capitulos": {
+                "capitulo_01": {
+                    "titulo": "Bienvenido a mi casa",
+                    "contenido": {
+                        "info": "www.piliymili.com"
+                        },
+                    "num_pag": 4
+                    },
+                "capitulo_02": {
+                    "titulo": "Adiós, muy buenas",
+                    "contenido": {
+                        "info": "www.piliymili.com"
+                        },
+                    "num_pag": 24
+                    }
+            },
+            "indice": "",
+            "sinopsis": "La historia de cómo mi casa llegó a ser mi casa y la transformé" 
+             } 
+        },
+
+        {"libro": {
+            "id": "L0002",
+            "tipo": "infantil",
+            "num_pag": 25,
+            "titulo": "Los animalitos",
+            "capitulos": {
+                "capitulo_01": {
+                    "titulo": "Los mamíferos",
+                    "contenido": {
+                        "info": "www.losanimalitos.com"
+                        },
+                    "num_pag": 2
+                    },
+                "capitulo_02": {
+                    "titulo": "Reptiles",
+                    "contenido": {
+                        "info": "www.losanimalitos.com"
+                        },
+                    "num_pag": 15
+                    }
+            },
+            "indice": "",
+            "sinopsis": "Una breve historia sobre los animales" 
+             } 
+        },
+        
+        {"libro": {
+            "id": "L0003",
+            "tipo": "didactico",
+            "num_pag": 60,
+            "titulo": "La teoría de Darwin",
+            "capitulos": {
+                "capitulo_01": {
+                    "titulo": "El origen de la vida",
+                    "contenido": {
+                        "info": "www.teoriadarwin.com"
+                        },
+                    "num_pag": 5
+                    },
+                "capitulo_02": {
+                    "titulo": "Teoría de la adaptación",
+                    "contenido": {
+                        "info": "www.teoriadarwin.com"
+                        },
+                    "num_pag": 33
+                    }
+            },
+            "indice": "",
+            "sinopsis": "Simposio sobre la teoría de Darwin y todas sus ramas" 
+             } 
+        }
+        
+    ],
+
+    "revistas": [
+
+        {"revista": {
+            "id": "R0001",
+            "tipo": "informática",
+            "num_pag": 66,
+            "titulo": "Lenguajes de marcas",
+            "num_revista": 111,
+            "indice": "",
+            "seccion_01": {
+                "nombre": "XML",
+                "contenido": {
+                    "info": "www.lengaujesdemarcas.com"
+                },
+                "num_pag": 2
+            },
+            "seccion_02": {
+                "nombre": "JSON",
+                "contenido": {
+                    "info": "www.lengaujesdemarcas.com"
+                },
+                "num_pag": 5
+            }
+            }
+        },
+
+        {"revista": {
+            "id": "R0002",
+            "tipo": "corazón",
+            "num_pag": 20,
+            "titulo": "El corazón",
+            "num_revista": 222,
+            "indice": "",
+            "seccion_01": {
+                "nombre": "Nacional",
+                "contenido": {
+                    "info": "www.elcorazon.com"
+                },
+                "num_pag": 6
+            },
+            "seccion_02": {
+                "nombre": "Internacional",
+                "contenido": {
+                    "info": "www.elcorazon.com"
+                },
+                "num_pag": 14
+            }
+            }
+        },
+        
+        {"revista": {
+            "id": "R0003",
+            "tipo": "coches",
+            "num_pag": 30,
+            "titulo": "Motores al límite",
+            "num_revista": 333,
+            "indice": "",
+            "seccion_01": {
+                "nombre": "Coches familiares",
+                "contenido": {
+                    "info": "www.motoresallimite.com"
+                },
+                "num_pag": 3
+            },
+            "seccion_02": {
+                "nombre": "Coches deportivos",
+                "contenido": {
+                    "info": "www.motoresallimite.com"
+                },
+                "num_pag": 25
+            }
+            }
+        },
+        
+        {"revista": {
+            "id": "R0004",
+            "tipo": "investigación",
+            "num_pag": 40,
+            "titulo": "Technical Sciences",
+            "num_revista": 444,
+            "indice": "",
+            "seccion_01": {
+                "nombre": "Biología",
+                "contenido": {
+                    "info": "www.technicalsciences.com"
+                },
+                "num_pag": 4
+            },
+            "seccion_02": {
+                "nombre": "Química",
+                "contenido": {
+                    "info": "www.technicalsciences.com"
+                },
+                "num_pag":35
+            }
+            }
+        },
+        
+        {"revista": {
+            "id": "R0005",
+            "tipo": "otras",
+            "num_pag": 50,
+            "titulo": "Caza y pesca",
+            "num_revista": 555,
+            "indice": "",
+            "seccion_01": {
+                "nombre": "Caza",
+                "contenido": {
+                    "info": "www.cazaypesca.com"
+                },
+                "num_pag": 2
+            },
+            "seccion_02": {
+                "nombre": "Pesca",
+                "contenido": {
+                    "info": "www.cazaypesca.com"
+                },
+                "num_pag": 45
+            }
+            }
+        }
+        
+    ],
+
+    "periodicos": [
+
+        {"periodico": {
+            "id":"P0001",
+            "tipo": "nacional",
+            "fecha_publi": "01/04/2023",
+            "seccion": [
+                {"tipo": "economica",
+                "articulo_01": {
+                    "autor": "Diego",
+                    "titulo": "Economía doméstica",
+                    "contenido": {
+                        "info": "www.elperiodico.com/economia"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Carla",
+                    "titulo": "Economía laboral",
+                    "contenido": {
+                        "info": "www.elperiodico.com/economia"
+                     }
+                }
+
+                },
+
+                {"tipo": "opinion",
+                "articulo_01": {
+                    "autor": "virginia",
+                    "titulo": "La obsolescencia programada",
+                    "contenido": {
+                        "info": "www.elperiodico.com/opinion"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Carlos",
+                    "titulo": "El reciclaje moderno",
+                    "contenido": {
+                        "info": "www.elperiodico.com/opinion"
+                     }
+                }
+
+                },
+
+                {"tipo": "deportes",
+                "articulo_01": {
+                    "autor": "Daniel",
+                    "titulo": "Fútbol",
+                    "contenido": {
+                        "info": "www.elperiodico.com/deportes"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Diana",
+                    "titulo":"Baloncesto",
+                    "contenido": {
+                        "info": "www.elperiodico.com/deportes"
+                     }
+                }
+
+                },
+
+                {"tipo": "nacional",
+                "articulo_01": {
+                    "autor": "Bruno",
+                    "titulo": "Elecciones municipales",
+                    "contenido": {
+                        "info": "www.elperiodico.com/nacional"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Beatriz",
+                    "titulo": "Elecciones autonómicas",
+                    "contenido": {
+                        "info": "www.elperiodico.com/nacional"
+                     }
+                }
+
+                },
+
+                {"tipo": "internacional",
+                "articulo_01": {
+                    "autor": "Esteban",
+                    "titulo": "Guerra en Ucrania",
+                    "contenido": {
+                        "info": "www.elperiodico.com/internacional"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Elena",
+                    "titulo": "Estados Unidos",
+                    "contenido": {
+                        "info": "www.elperiodico.com/internacional"
+                     }
+                }
+
+                }
+            ]
+        }
+        },
+
+        {"periodico": {
+            "id":"P0002",
+            "tipo": "internacional",
+            "fecha_publi": "02/05/2023",
+            "seccion": [
+                {"tipo": "economica",
+                "articulo_01": {
+                    "autor": "Lucas",
+                    "titulo": "Cómo ahorrar en la cesta de la compra",
+                    "contenido": {
+                        "info": "www.elinternacional.com/economia"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Lucía",
+                    "titulo": "Cómo cambiar de hipoteca",
+                    "contenido": {
+                        "info": "www.elinternacional.com/economia"
+                     }
+                }
+
+                },
+
+                {"tipo": "opinion",
+                "articulo_01": {
+                    "autor": "Mario",
+                    "titulo": "La libre elección de médico",
+                    "contenido": {
+                        "info": "www.elinternacional.com/opinion"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Marina",
+                    "titulo": "La moda del veganismo",
+                    "contenido": {
+                        "info": "www.elinternacional.com/opinion"
+                     }
+                }
+
+                },
+
+                {"tipo": "deportes",
+                "articulo_01": {
+                    "autor": "Nacho",
+                    "titulo": "Balonmano",
+                    "contenido": {
+                        "info": "www.elinternacional.com/deportes"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Nadia",
+                    "titulo":"Natación",
+                    "contenido": {
+                        "info": "www.elinternacional.com/deportes"
+                     }
+                }
+
+                },
+
+                {"tipo": "nacional",
+                "articulo_01": {
+                    "autor": "Pablo",
+                    "titulo": "La sequía",
+                    "contenido": {
+                        "info": "www.elinternacional.com/nacional"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Paula",
+                    "titulo": "Incendios forestales",
+                    "contenido": {
+                        "info": "www.elinternacional.com/nacional"
+                     }
+                }
+
+                },
+
+                {"tipo": "internacional",
+                "articulo_01": {
+                    "autor": "Sergio",
+                    "titulo": "La evolución de China",
+                    "contenido": {
+                        "info": "www.elinternacional.com/internacional"
+                    }
+                },
+                "articulo_02": {
+                    "autor": "Sara",
+                    "titulo": "La pobreza en África",
+                    "contenido": {
+                        "info": "www.elinternacional.com/internacional"
+                     }
+                }
+
+                }
+            ]
+        }
+        }  
+        
+    ]
+}
+
+}
