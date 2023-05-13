@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Biblioteca>
+
+    <libros>
+         <libro id="L0001" tipo_clase="Novela" numero_paginas="92">
+            <titulo>El coronel no tiene quien le escriba</titulo>
+            <capitulos>
+                <capitulo_01 numero_paginas="10">
+                    <titulo>El coronel y su libreta</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_01>
+                <capitulo_02 numero_paginas="8">
+                    <titulo>El coronel y la esposa</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_02>
+                <capitulo_03 numero_paginas="16">
+                    <titulo>Veterano de la guerra</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_03>
+            </capitulos>
+            <indice>
+                    1-El coronel y su libreta
+                    2-El coronel y la esposa
+                    3-Veterano de la guerra
+            </indice>
+            <sinopsis>La historia narra tres meses de la vida del coronel y de su esposa </sinopsis>
+        </libro>
+
+        <libro id="L0002" tipo_clase="Didactico" numero_paginas="109">
+            <titulo>Lo que no se dice </titulo>
+            <capitulos>
+                <capitulo_01 numero_paginas="12">
+                    <titulo>Hoy</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_01>
+                <capitulo_02 numero_paginas="14">
+                    <titulo>Ayer</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_02>
+                <capitulo_03 numero_paginas="9">
+                    <titulo>Mañana</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_03>
+            </capitulos>
+            <indice>
+                    1-Hoy
+                    2-Ayer
+                    3-Mañana
+             </indice>
+             <sinopsis>Dos historias de amor, una actual y otra antigua </sinopsis>
+         
+        </libro>
+
+        <libro id="L0003" tipo_clase="Infantil" numero_paginas="32">
+            <titulo>El pequeño mundo de los colores olvidados</titulo>
+            <capitulos>
+                <capitulo_01 numero_paginas="4">
+                    <titulo>Gato negro</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_01>
+                <capitulo_02 numero_paginas="5">
+                    <titulo>La niña azul</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_02>
+                <capitulo_03 numero_paginas="7">
+                    <titulo>El niño verde</titulo>
+                    <contenido info="https://rinconliterario256.wordpress.com/sinopsis-de-libros/"></contenido>
+                </capitulo_03>
+            </capitulos>
+            <indice>
+                    1-Gato negro
+                    2-La niña azul
+                    3-El niño verde
+            
+            </indice>
+            <sinopsis>Los colores olvidados”,libro ilustrado lleno de magia con tres personajes carismáticos: Carmesina, Serafín y Gato Negro. ¿Nos ayudas a pintar el mundo?</sinopsis>
+        </libro>
+
+       </libros>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Biblioteca>
