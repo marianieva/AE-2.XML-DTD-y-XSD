@@ -133,7 +133,7 @@
 
         <periodico id="P0001" tipo_clase="nacional" fecha_publi="2023-04-01">
 
-            <seccion tipo_seccion="economica"></seccion>
+            <seccion tipo_seccion="economica">
                 <articulo_01 autor="Diego">
                     <titulo>Economía doméstica</titulo>
                     <contenido info="www.elperiodico.com/economia"></contenido>
@@ -142,8 +142,9 @@
                     <titulo>Economía laboral</titulo>
                     <contenido info="www.elperiodico.com/economia"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="opinion"></seccion>
+            <seccion tipo_seccion="opinion">
                 <articulo_01 autor="Virginia">
                     <titulo>La obsolescencia programada</titulo>
                     <contenido info="www.elperiodico.com/opinion"></contenido>
@@ -152,8 +153,9 @@
                     <titulo>El reciclaje moderno</titulo>
                     <contenido info="www.elperiodico.com/opinion"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="deportes"></seccion>
+            <seccion tipo_seccion="deportes">
                 <articulo_01 autor="Daniel">
                     <titulo>Fútbol</titulo>
                     <contenido info="www.elperiodico.com/deportes"></contenido>
@@ -162,8 +164,9 @@
                     <titulo>Baloncesto</titulo>
                     <contenido info="www.elperiodico.com/deportes"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="nacional"></seccion>
+            <seccion tipo_seccion="nacional">
                 <articulo_01 autor="Bruno">
                     <titulo>Elecciones municipales</titulo>
                     <contenido info="www.elperiodico.com/nacional"></contenido>
@@ -172,8 +175,9 @@
                     <titulo>Elecciones autonómicas</titulo>
                     <contenido info="www.elperiodico.com/nacional"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="internacional"></seccion>
+            <seccion tipo_seccion="internacional">
                 <articulo_01 autor="Esteban">
                     <titulo>Guerra en Ucrania</titulo>
                     <contenido info="www.elperiodico.com/internacional"></contenido>
@@ -182,13 +186,14 @@
                     <titulo>Estados Unidos</titulo>
                     <contenido info="www.elperiodico.com/internacional"></contenido>
                 </articulo_02>
+            </seccion>
             
             <indice></indice>
         </periodico>
 
-        <periodico id="P0002" tipo_clase="internacional" fecha_publi="02/05/2023">
+        <periodico id="P0002" tipo_clase="internacional" fecha_publi="2023-05-02">
 
-            <seccion tipo_seccion="economica"></seccion>
+            <seccion tipo_seccion="economica">
                 <articulo_01 autor="Lucas">
                     <titulo>Cómo ahorrar en la cesta de la compra</titulo>
                     <contenido info="www.elinternacional.com/economia"></contenido>
@@ -197,8 +202,9 @@
                     <titulo>Cómo cambiar de hipoteca</titulo>
                     <contenido info="www.elinternacional.com/economia"></contenido>
                 </articulo_02>
-           
-            <seccion tipo_seccion="opinion"></seccion>
+            </seccion>
+
+            <seccion tipo_seccion="opinion">
                 <articulo_01 autor="Mario">
                     <titulo>La libre elección de médico</titulo>
                     <contenido info="www.elinternacional.com/opinion"></contenido>
@@ -207,8 +213,9 @@
                     <titulo>La moda del veganismo</titulo>
                     <contenido info="www.elinternacional.com/opinion"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="deportes"></seccion>
+            <seccion tipo_seccion="deportes">
                 <articulo_01 autor="Nacho">
                     <titulo>Balonmano</titulo>
                     <contenido info="www.elinternacional.com/deportes"></contenido>
@@ -217,8 +224,9 @@
                     <titulo>Natación</titulo>
                     <contenido info="www.elinternacional.com/deportes"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="nacional"></seccion>
+            <seccion tipo_seccion="nacional">
                 <articulo_01 autor="Pablo">
                     <titulo>La sequía</titulo>
                     <contenido info="www.elinternacional.com/nacional"></contenido>
@@ -227,8 +235,9 @@
                     <titulo>Incendios forestales</titulo>
                     <contenido info="www.elinternacional.com/nacional"></contenido>
                 </articulo_02>
+            </seccion>
            
-            <seccion tipo_seccion="internacional"></seccion>
+            <seccion tipo_seccion="internacional">
                 <articulo_01 autor="Sergio">
                     <titulo>La evolución de China</titulo>
                     <contenido info="www.elinternacional.com/internacional"></contenido>
@@ -237,6 +246,7 @@
                     <titulo></titulo>
                     <contenido info="www.elinternacional.com/internacional"></contenido>
                 </articulo_02>
+            </seccion>
             
             <indice></indice>
         </periodico>
