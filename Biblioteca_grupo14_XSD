@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xsi:noNamespaceSchemaLocation= "Biblioteca_alejandro.xsd">
+        xsi:noNamespaceSchemaLocation= "Biblioteca_grupo14.xsd">
     <libros>
             <libro id="L0001" tipo_clase="novela" num_pags="170">
                 <titulo>El viaje interminable</titulo>
@@ -165,13 +165,13 @@
             <secciones_periodico>
                 <seccion_periodico tipo_seccion="económica">
                     <articulos>
-                        <articulo autor="Pedro.F">
+                        <articulo autor="Pedro F">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Carla.X">
+                        <articulo autor="Carla X">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo2.html"/>
                         </articulo>
-                        <articulo autor="Javier.L">
+                        <articulo autor="Javier L">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo3.html"/>
                         </articulo>
                     </articulos>
@@ -179,13 +179,13 @@
 
                 <seccion_periodico tipo_seccion="deportes">
                     <articulos>
-                        <articulo autor="Arturo.C">
+                        <articulo autor="Arturo C">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Maria.D">
+                        <articulo autor="Maria D">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo2.html"/>
                         </articulo>
-                        <articulo autor="Dolores.L">
+                        <articulo autor="Dolores L">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo3.html"/>
                         </articulo>
                     </articulos>
@@ -193,10 +193,10 @@
 
                 <seccion_periodico tipo_seccion="opinión">
                     <articulos>
-                        <articulo autor="Laura.C">
+                        <articulo autor="Laura C">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/opinion/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Pablo.D">
+                        <articulo autor="Pablo D">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/opinion/articulo2.html"/>
                         </articulo>
                     </articulos>
@@ -204,10 +204,10 @@
 
                 <seccion_periodico tipo_seccion="internacional">
                     <articulos>
-                        <articulo autor="Mikel.C">
+                        <articulo autor="Mikel C">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/internacional/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Itziar.D">
+                        <articulo autor="Itziar D">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/internacional/articulo2.html"/>
                         </articulo>
                     </articulos>
@@ -215,10 +215,10 @@
 
                 <seccion_periodico tipo_seccion="nacional">
                     <articulos>
-                        <articulo autor="Alejandro.C">
+                        <articulo autor="Alejandro C">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/nacional/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Miguel.D">
+                        <articulo autor="Miguel D">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/nacional/articulo2.html"/>
                         </articulo>
                     </articulos>
@@ -235,13 +235,13 @@
             <secciones_periodico>
                 <seccion_periodico tipo_seccion="opinión">
                     <articulos>
-                        <articulo autor="Pedro.F">
+                        <articulo autor="Pedro F">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Carla.X">
+                        <articulo autor="Carla X">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo2.html"/>
                         </articulo>
-                        <articulo autor="Javier.L">
+                        <articulo autor="Javier L">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo3.html"/>
                         </articulo>
                     </articulos>
@@ -250,10 +250,10 @@
 
                 <seccion_periodico tipo_seccion="opinión">
                     <articulos>
-                        <articulo autor="Laura.C">
+                        <articulo autor="Laura C">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Pablo.D">
+                        <articulo autor="Pablo D">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo2.html"/>
                         </articulo>
                     </articulos>
@@ -261,10 +261,10 @@
 
                 <seccion_periodico tipo_seccion="internacional">
                     <articulos>
-                        <articulo autor="Mikel.C">
+                        <articulo autor="Mikel C">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/internacional/articulo1.html"/>
                         </articulo>
-                        <articulo autor="Itziar.D">
+                        <articulo autor="Itziar D">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/internacional/articulo2.html"/>
                         </articulo>
                     </articulos>

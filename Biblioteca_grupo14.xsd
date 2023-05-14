@@ -34,8 +34,7 @@
                                 <attribute name="id" use="required">
                                     <simpleType >
                                         <restriction base="string">
-                                            <length value="5"></length>
-                                            <pattern value="[L]\d\d\d\d"></pattern>
+                                            <pattern value="L[0-9]{4}"></pattern>
                                         </restriction>
                                     </simpleType>
                                 </attribute>
@@ -48,7 +47,13 @@
                                         </restriction>
                                     </simpleType>
                                 </attribute>
-                                <attribute name="num_pags" type="integer"></attribute>
+                                <attribute name="num_pags">
+                                    <simpleType>
+                                        <restriction base="integer">
+                                            <minInclusive value="0"/>
+                                        </restriction>
+                                    </simpleType>
+                                </attribute>
                             </complexType>
                         </element>
                     </sequence>
@@ -77,7 +82,12 @@
                                                                 </complexType>
                                                             </element>                                
                                                         </sequence>
-                                                        <attribute name="num_pags" type="integer">
+                                                        <attribute name="num_pags">
+                                                            <simpleType>
+                                                                <restriction base="integer">
+                                                                    <minInclusive value="0"/>
+                                                                </restriction>
+                                                            </simpleType>
                                                         </attribute>
                                                     </complexType>
                                                 </element>
@@ -88,8 +98,7 @@
                                 <attribute name="id" use="required">
                                     <simpleType>
                                         <restriction base="string">
-                                            <length value="5"></length>
-                                            <pattern value="[R]\d\d\d\d"></pattern>
+                                            <pattern value="R[0-9]{4}"></pattern>
                                         </restriction>
                                     </simpleType>
                                 </attribute>
@@ -104,7 +113,13 @@
                                         </restriction>
                                     </simpleType>
                                 </attribute>
-                                <attribute name="num_pags" type="integer"></attribute>
+                                <attribute name="num_pags">
+                                    <simpleType>
+                                        <restriction base="integer">
+                                            <minInclusive value="0"/>
+                                        </restriction>
+                                    </simpleType>
+                                </attribute>
                             </complexType>
                         </element>
                         </sequence>
@@ -136,7 +151,13 @@
                                                                                         </complexType>
                                                                                     </element>
                                                                                 </sequence>
-                                                                                <attribute name="autor" type="string" use="required"></attribute>
+                                                                                <attribute name="autor">
+                                                                                    <simpleType>
+                                                                                        <restriction base="string">
+                                                                                            <pattern value="[A-Za-z]+\s[A-Za-z]+"/>
+                                                                                        </restriction>
+                                                                                    </simpleType>
+                                                                                </attribute>
                                                                             </complexType>
                                                                         </element>
                                                                     </sequence>
@@ -163,8 +184,7 @@
                                 <attribute name="id" use="required">
                                     <simpleType>
                                         <restriction base="string">
-                                            <length value="5"></length>
-                                            <pattern value="[P]\d\d\d\d"></pattern>
+                                            <pattern value="P[0-9]{4}"></pattern>
                                         </restriction>
                                     </simpleType>
                                 </attribute>
