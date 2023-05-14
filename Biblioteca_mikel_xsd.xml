@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblioteca SYSTEM "DTD_Biblioteca_mikel.dtd">
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "XSD_Biblioteca_Mikel.xsd">
 
-<biblioteca>
 
     <libros>
          <libro id="L0001" tipo_clase="Novela" numero_paginas="92">
@@ -152,9 +152,9 @@
 
     <periodicos>
 
-        <periodico id="P0001" tipo_clase="Nacional" fecha_publicacion="14/04/2023">
+        <periodico id="P0001" tipo_clase="Nacional" fecha_publicacion= "2023-04-14">
 
-            <seccion tipo_seccion="Economica"></seccion>
+            <seccion tipo_seccion="Economica">
                 <articulo_01 autor="Guillermo Maestre">
                     <titulo>Nuevo precio del tabaco</titulo>
                     <contenido info="https://www.heraldo.es/noticias/economia/2023/05/14/boe-publica-nuevo-precio-tabaco-marcas-cigarros-1651562.html"></contenido>
@@ -168,7 +168,8 @@
                     <contenido info="https://www.heraldo.es/noticias/economia/2023/05/14/construccion-zaragoza-cambio-normativa-adelantar-jornada-calor-verano-1651512.html"></contenido>
                 </articulo_03>
 
-            <seccion tipo_seccion="Opinion"></seccion>
+            </seccion>
+            <seccion tipo_seccion="Opinion">
                 <articulo_01 autor="Pexels">
                     <titulo>Estrategia contra la sequia</titulo>
                     <contenido info="https://www.heraldo.es/noticias/opinion/2023/05/14/estrategias-contra-la-sequia-editorial-1651321.html"></contenido>
@@ -181,8 +182,9 @@
                     <titulo>Lunas para todos</titulo>
                     <contenido info="https://www.heraldo.es/noticias/opinion/2023/05/14/lunas-para-todos-jose-javier-rueda-1651300.html"></contenido>
                 </articulo_03>
-           
-            <seccion tipo_seccion="Nacional"></seccion>
+            </seccion>
+
+            <seccion tipo_seccion="Nacional">
                 <articulo_01 autor="José M. Camarero">
                     <titulo>Los embalses</titulo>
                     <contenido info="https://www.heraldo.es/noticias/nacional/2023/05/14/los-embalses-hacen-equilibrios-para-generar-luz-en-plena-epoca-de-sequia-1651502.html"></contenido>
@@ -195,17 +197,18 @@
                     <titulo>La alcaldesa mas veterana del mundo</titulo>
                     <contenido info="https://www.heraldo.es/noticias/nacional/2023/05/13/charito-alcaldable-mas-veterana-mundo-elecciones-espana-1651290.html"></contenido>
                 </articulo_03>
+                 </seccion>
             <indice>
                 1-Economia
                 2-Opinion
                 3-Nacional
             </indice>
-
+        
         </periodico>
 
-        <periodico id="P0002" tipo_clase="Internacional" fecha_publicacion="02/05/2023">
+        <periodico id="P0002" tipo_clase="Internacional" fecha_publicacion="2023-05-02">
 
-            <seccion tipo_seccion="Internacional"></seccion>
+            <seccion tipo_seccion="Internacional">
                 <articulo_01 autor="José Arrieta">
                     <titulo>Polonia denuncia posible globo espía</titulo>
                     <contenido info="https://heraldodemexico.com.mx/mundo/2023/5/13/polonia-denuncia-posible-globo-espia-en-su-espacio-aereo-505228.html"></contenido>
@@ -218,8 +221,8 @@
                     <titulo>Adios china y corea del norte</titulo>
                     <contenido info="https://heraldodemexico.com.mx/mundo/2023/5/13/adios-china-corea-del-norte-rusia-encuentra-un-aliado-en-sudafrica-505240.html"></contenido>
                 </articulo_03>
-           
-            <seccion tipo_seccion="Deportes"></seccion>
+           </seccion>
+            <seccion tipo_seccion="Deportes">
                 <articulo_01 autor="Faustino Alcántara">
                     <titulo>Futbol</titulo>
                     <contenido info="https://www.heraldodeportes.com.mx/futbol/"></contenido>
@@ -232,7 +235,7 @@
                     <titulo>NBA</titulo>
                     <contenido info="https://www.heraldodeportes.com.mx/nba/"></contenido>
                 </articulo_03>
-
+            </seccion>
              <indice>
                 1-Internacional
                 2-Deportes

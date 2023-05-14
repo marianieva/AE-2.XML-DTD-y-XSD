@@ -1,0 +1,80 @@
+<!--Definimos elementos de biblioteca-->
+<!ELEMENT biblioteca (libros+, revistas+, periodicos+)>
+<!ELEMENT libros ANY>
+<!ELEMENT revistas ANY>
+<!ELEMENT periodicos ANY>
+
+
+<!--Definimos elementos de libro -->
+<!ELEMENT libro (titulo, capitulos+, indice, sinopsis)>
+
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT capitulos (capitulo_01, capitulo_02, capitulo_03)>
+        <!ELEMENT contenido (#PCDATA)>
+        <!ELEMENT capitulo_01 (titulo, contenido)>
+        <!ELEMENT capitulo_02 (titulo, contenido)>
+        <!ELEMENT capitulo_03 (titulo, contenido)>
+
+
+        <!--Definimos atributos de capitulos  -->
+        <!ATTLIST capitulo_01 numero_paginas CDATA #IMPLIED>
+        <!ATTLIST contenido info CDATA #REQUIRED>
+        <!ATTLIST capitulo_02 numero_paginas CDATA #IMPLIED>
+        <!ATTLIST contenido info CDATA #REQUIRED>
+        <!ATTLIST capitulo_03 numero_paginas CDATA #IMPLIED>
+        <!ATTLIST contenido info CDATA #REQUIRED>
+
+
+    <!ELEMENT indice (#PCDATA)>
+    <!ELEMENT sinopsis (#PCDATA)>
+
+    <!--Definimos atributos de libro-->
+    <!ATTLIST libro id ID #REQUIRED>
+    <!ATTLIST libro tipo_clase (Novela | Infantil | Didáctico) #REQUIRED>
+    <!ATTLIST libro numero_paginas CDATA #IMPLIED>
+
+
+<!--Definimos elementos de revista-->
+<!ELEMENT revista (titulo, numero_revista, indice, seccion_01, seccion_02, seccion_03)>
+
+    <!ELEMENT numero_revista (#PCDATA)>
+    <!ELEMENT seccion_01 (nombre, contenido)>
+    <!ELEMENT seccion_02 (nombre, contenido)>
+    <!ELEMENT seccion_03 (nombre, contenido)>
+        <!ELEMENT nombre (#PCDATA)>
+
+        <!--Definimos atributos de seccion-->
+        <!ATTLIST seccion_01 numero_paginas CDATA #IMPLIED>
+        <!ATTLIST seccion_02 numero_paginas CDATA #IMPLIED>
+        <!ATTLIST seccion_03 numero_paginas CDATA #IMPLIED>
+    
+    <!--Definimos atributos de revista-->
+    <!ATTLIST revista id ID #REQUIRED>
+    <!ATTLIST revista tipo_clase (Informática | Corazón | Coches | Investigación | Otras) #REQUIRED>
+    <!ATTLIST revista numero_paginas CDATA #IMPLIED>
+
+
+<!--Definimos elementos de periodico-->
+<!ELEMENT periodico ANY>
+
+    <!ELEMENT seccion ANY>
+        <!--Definimos elementos de seccion-->
+        <!ELEMENT articulo_01 ANY>
+        <!ELEMENT articulo_02 ANY>
+        <!ELEMENT articulo_03 ANY>
+
+            <!--Definimos atributos de articulo-->
+            <!ATTLIST articulo_01 autor CDATA #REQUIRED>
+            <!ATTLIST articulo_02 autor CDATA #REQUIRED>
+            <!ATTLIST articulo_03 autor CDATA #REQUIRED>
+
+            <!--Definimos atributo de contenido-->
+            <!ATTLIST contenido info CDATA #REQUIRED>
+        
+        <!--Definimos atributos de seccion-->
+        <!ATTLIST seccion tipo_seccion (Economica | Opinion | Deportes | Nacional | Internacional) #REQUIRED>
+
+    <!--Definimos atributos de periodico-->
+    <!ATTLIST periodico id ID #REQUIRED>
+    <!ATTLIST periodico tipo_clase (Nacional | Internacional) #REQUIRED>
+    <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
