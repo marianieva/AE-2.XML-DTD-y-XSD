@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "./biblioteca.dtd">
+
+<biblioteca>
+
+    <libros>
+
+        <libro id="L1234" tipo_clase="novela" numero_paginas="22">
+            <titulo>El gran</titulo>
+            <capitulos>
+                <capitulo1 numero_paginas="15">
+                    <titulo>capitulo1</titulo>
+                    <contenido enlace="enlace_capitulo1.xml"/>
+                </capitulo1>
+                <capitulo2 numero_paginas="23">
+                    <titulo>capitulo2</titulo>
+                    <contenido enlace="enlace_capitulo2.xml"/>
+                </capitulo2>
+            </capitulos>
+            <indice/>
+            <sinopsis/>
+        </libro>
+    </libros>
+
+    <revistas>
+        <revista id="R1001" tipo_clase="informatica" numero_paginas="34">
+            <titulo>Top Gear</titulo>
+            <numero_revista>234</numero_revista>
+            <indice_contenido/>
+                <seccion_1 numero_paginas="4">
+                    <contenido enlace="informacion23.com"/>
+                </seccion_1>
+        </revista>
+    </revistas>
+
+
+    <periodicos>
+        <periodico id="P1001" tipo_clase="nacionales" fecha_publicacion="31/01/2019">
+            <indice></indice>
+            <seccion tipo_seccion="economica">
+                <articulo autor="javier">
+                    <contenido enlace="economialm.xml"></contenido>
+                </articulo>
+            </seccion>
+        </periodico>
+    </periodicos>
+
+</biblioteca>

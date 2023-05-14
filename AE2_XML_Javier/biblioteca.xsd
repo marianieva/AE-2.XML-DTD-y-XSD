@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="libros">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="libro">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="titulo" type="xs:string"/>
+                                    <xs:element name="capitulos">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="capitulo" maxOccurs="unbounded">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name ="titulo"/>
+                                                            <xs:element name ="contenido"/>
+                                                        </xs:sequence>
+                                                        <xs:attribute name="numero_paginas">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:integer">
+                                                                    <xs:minInclusive value="0"/>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="indice"/>
+                                    <xs:element name="sinopsis"/>
+                                </xs:sequence>
+                                <xs:attribute name="id" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                        <xs:pattern value="L[0-9]{4}"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="tipo_clase">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="novela"/>
+                                            <xs:enumeration value="infantil"/>
+                                            <xs:enumeration value="didactico"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="numero_paginas">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:integer">
+                                            <xs:minInclusive value="0"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="revistas">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="revista">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="titulo"/>
+                                    <xs:element name="numero_revista"/>
+                                    <xs:element name="indice_contenido"/>
+                                    <xs:element name="seccion_1">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="contenido"/>
+                                            </xs:sequence>
+                                            <xs:attribute name="numero_paginas">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:integer">
+                                                        <xs:minInclusive value="0"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="id" use="required">
+                                <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                        <xs:pattern value="R[0-9]{4}"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="tipo_clase">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="informatica"/>
+                                            <xs:enumeration value="corazon"/>
+                                            <xs:enumeration value="coches"/>
+                                            <xs:enumeration value="investigacion"/>
+                                            <xs:enumeration value="otros"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="numero_paginas">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:integer">
+                                            <xs:minInclusive value="0"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="periodicos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="periodico">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="indice"/>
+                                    <xs:element name="seccion">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="articulo">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="contenido"/>
+                                                        </xs:sequence>
+                                                        <xs:attribute name="autor">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:string">
+                                                                    <xs:pattern value="[A-Za-z]+\s[A-Za-z]+"/>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="tipo_seccion">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="economica"/>
+                                                        <xs:enumeration value="opinion"/>
+                                                        <xs:enumeration value="deportes"/>
+                                                        <xs:enumeration value="nacional"/>
+                                                        <xs:enumeration value="internacional"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="id" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                        <xs:pattern value="P[0-9]{4}"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="tipo_clase">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="nacionales"/>
+                                            <xs:enumeration value="internacionales"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="fecha_publicacion" type="xs:date"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+
+
+
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
