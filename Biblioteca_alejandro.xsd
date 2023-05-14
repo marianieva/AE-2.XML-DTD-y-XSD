@@ -18,7 +18,7 @@
                                                         <sequence>
                                                             <element name="contenido">
                                                                 <complexType>
-                                                                    <attribute name="enlace" use="required"></attribute>
+                                                                    <attribute name="enlace" use="required" type="string"></attribute>
                                                                 </complexType>
                                                             </element>
                                                         </sequence>
@@ -54,61 +54,62 @@
                     </sequence>
                 </complexType>
             </element>
-        </sequence>
-    </complexType>
-</element>
 
-<element name="revistas">
-    <complexType>
-        <sequence>
-            <element name="revista" maxOccurs="unbounded">
+
+            <element name="revistas">
                 <complexType>
                     <sequence>
-                        <element name="titulo" type="string"></element>
-                        <element name="num_revista" type="integer"></element>
-                        <element name="indice" type="string"></element>
-                        <element name="secciones_revista">
+                        <element name="revista" maxOccurs="unbounded">
                             <complexType>
                                 <sequence>
-                                    <element name="seccion_revista" maxOccurs="unbounded">
+                                    <element name="titulo" type="string"></element>
+                                    <element name="num_revista" type="integer"></element>
+                                    <element name="indice" type="string"></element>
+                                    <element name="secciones_revista">
                                         <complexType>
                                             <sequence>
-                                                <element name="contenido">
+                                                <element name="seccion_revista" maxOccurs="unbounded">
                                                     <complexType>
-                                                        <attribute name="enlace" use="required"></attribute>
+                                                        <sequence>
+                                                            <element name="contenido">
+                                                                <complexType>
+                                                                    <attribute name="enlace" use="required" type="string"></attribute>
+                                                                </complexType>
+                                                            </element>                                
+                                                        </sequence>
+                                                        <attribute name="num_pags" type="integer">
+                                                        </attribute>
                                                     </complexType>
-                                                </element>                                
+                                                </element>
                                             </sequence>
-                                            <attribute name="num_pags" type="integer">
-                                            </attribute>
                                         </complexType>
                                     </element>
                                 </sequence>
+                                <attribute name="id" use="required">
+                                    <simpleType>
+                                        <restriction base="string">
+                                            <length value="5"></length>
+                                            <pattern value="[R]\d\d\d\d"></pattern>
+                                        </restriction>
+                                    </simpleType>
+                                </attribute>
+                                <attribute name="tipo_clase" use="required">
+                                    <simpleType>
+                                        <restriction base="string">
+                                            <enumeration value="informática"></enumeration>
+                                            <enumeration value="corazón"></enumeration>
+                                            <enumeration value="coches"></enumeration>
+                                            <enumeration value="investigación"></enumeration>
+                                            <enumeration value="otras"></enumeration>
+                                        </restriction>
+                                    </simpleType>
+                                </attribute>
+                                <attribute name="num_pags" type="integer"></attribute>
                             </complexType>
                         </element>
-                    </sequence>
-                    <attribute name="id" use="required">
-                        <simpleType>
-                            <restriction base="string">
-                                <length value="5"></length>
-                                <pattern value="[R]\d\d\d\d"></pattern>
-                            </restriction>
-                        </simpleType>
-                    </attribute>
-                    <attribute name="tipo_clase" use="required">
-                        <simpleType>
-                            <restriction base="string">
-                                <enumeration value="informática"></enumeration>
-                                <enumeration value="corazón"></enumeration>
-                                <enumeration value="coches"></enumeration>
-                                <enumeration value="investigación"></enumeration>
-                                <enumeration value="otras"></enumeration>
-                            </restriction>
-                        </simpleType>
-                    </attribute>
-                    <attribute name="num_pags" type="integer"></attribute>
+                        </sequence>
                 </complexType>
-            </element>
+            </element>        
 
             <element name="periodicos">
                 <complexType>
@@ -131,7 +132,7 @@
                                                                                 <sequence>
                                                                                     <element name="contenido">
                                                                                         <complexType>
-                                                                                            <attribute name="enlace" use="required"></attribute>
+                                                                                            <attribute name="enlace" use="required" type="string"></attribute>
                                                                                         </complexType>
                                                                                     </element>
                                                                                 </sequence>

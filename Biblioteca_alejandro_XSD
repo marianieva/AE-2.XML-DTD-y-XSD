@@ -157,13 +157,13 @@
     </revistas>
 
     <periodicos>
-        <periodico id="P0001" tipo_clase="nacional" fecha_pub="10/01/2020">
+        <periodico id="P0001" tipo_clase="nacional" fecha_pub="2020-10-01">
 
             <indice>Portada||Nacional||Internacional||Opinion||Deportes||Contraportada
             </indice>
 
             <secciones_periodico>
-                <seccion_periodico tipo_seccion="economica">
+                <seccion_periodico tipo_seccion="económica">
                     <articulos>
                         <articulo autor="Pedro.F">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo1.html"/>
@@ -191,7 +191,7 @@
                     </articulos>
                 </seccion_periodico>
 
-                <seccion_periodico tipo_seccion="opinion">
+                <seccion_periodico tipo_seccion="opinión">
                     <articulos>
                         <articulo autor="Laura.C">
                             <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/opinion/articulo1.html"/>
@@ -227,13 +227,13 @@
 
         </periodico>
 
-        <periodico id="P0002" tipo_clase="internacional" fecha_pub="10/08/2002">
+        <periodico id="P0002" tipo_clase="internacional" fecha_pub="2002-10-08">
 
             <indice>Portada||Internacional||Opinion||Contraportada
             </indice>
 
             <secciones_periodico>
-                <seccion_periodico tipo_seccion="opinion">
+                <seccion_periodico tipo_seccion="opinión">
                     <articulos>
                         <articulo autor="Pedro.F">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
@@ -248,7 +248,7 @@
                 </seccion_periodico>
 
 
-                <seccion_periodico tipo_seccion="opinion">
+                <seccion_periodico tipo_seccion="opinión">
                     <articulos>
                         <articulo autor="Laura.C">
                             <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
