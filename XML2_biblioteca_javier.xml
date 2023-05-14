@@ -28,9 +28,9 @@
             <titulo>Top Gear</titulo>
             <numero_revista>234</numero_revista>
             <indice_contenido/>
-            <seccion_1 numero_paginas="4">
+            <seccion numero_paginas="4">
                 <contenido enlace="informacion23.com"/>
-            </seccion_1>
+            </seccion>
         </revista>
     </revistas>
 

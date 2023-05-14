@@ -74,7 +74,7 @@
                                     <xs:element name="titulo"/>
                                     <xs:element name="numero_revista"/>
                                     <xs:element name="indice_contenido"/>
-                                    <xs:element name="seccion_1">
+                                    <xs:element name="seccion" maxOccurs="unbounded">
                                         <xs:complexType>
                                             <xs:sequence>
                                                 <xs:element name="contenido"/>
