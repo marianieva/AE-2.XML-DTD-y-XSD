@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <annotation>
+        <documentation>
+            Esquema XSD para el archivo <Biblioteca_XSD class="xml"></Biblioteca_XSD>
+        </documentation>
+    </annotation>
+
     <element name="biblioteca">
         <complexType>
             <all>
@@ -46,7 +52,15 @@
                                         <element name="sinopsis" type="string"></element>
                                     </all>
                                     <attribute name="id" type="string" use="required"></attribute>
-                                    <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                    <attribute name="tipo_clase" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <enumeration value="novela"></enumeration>
+                                                <enumeration value="infantil"></enumeration>
+                                                <enumeration value="didáctico"></enumeration>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
                                     <attribute name="num_pag" type="integer" use="optional"></attribute>
                                 </complexType>
                             </element>
@@ -91,7 +105,17 @@
                                     </element>
                                 </all>
                                 <attribute name="id" type="string" use="required"></attribute>
-                                <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                <attribute name="tipo_clase" use="required">
+                                    <simpleType>
+                                        <restriction base="string">
+                                            <enumeration value="informática"></enumeration>
+                                            <enumeration value="corazón"></enumeration>
+                                            <enumeration value="coches"></enumeration>
+                                            <enumeration value="investigación"></enumeration>
+                                            <enumeration value="otras"></enumeration>
+                                        </restriction>
+                                    </simpleType>
+                                </attribute>
                                 <attribute name="num_pag" type="integer" use="optional"></attribute>
                             </complexType>
                             </element>
@@ -135,13 +159,30 @@
                                                         </complexType>
                                                     </element>
                                                 </sequence>
-                                                <attribute name="tipo_seccion" type="string"></attribute>
+                                                <attribute name="tipo_seccion">
+                                                    <simpleType>
+                                                        <restriction base="string">
+                                                            <enumeration value="economica"></enumeration>
+                                                            <enumeration value="opinion"></enumeration>
+                                                            <enumeration value="deportes"></enumeration>
+                                                            <enumeration value="nacional"></enumeration>
+                                                            <enumeration value="internacional"></enumeration>        
+                                                        </restriction>
+                                                    </simpleType>
+                                                </attribute>
                                             </complexType>
                                         </element>
                                         <element name="indice" type="string" minOccurs="0"></element>
                                     </sequence>
                                     <attribute name="id" type="string" use="required"></attribute>
-                                    <attribute name="tipo_clase" type="string" use="required"></attribute>
+                                    <attribute name="tipo_clase" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <enumeration value="nacional"></enumeration>
+                                                <enumeration value="internacional"></enumeration>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
                                     <attribute name="fecha_publi" type="date" use="optional"></attribute>
                                 </complexType>
                             </element>

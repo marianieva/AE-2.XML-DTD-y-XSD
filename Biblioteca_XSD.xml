@@ -2,6 +2,9 @@
 
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation= "Biblioteca.xsd">
+   
+   
+   
     <libros>
 
         <libro id="L0001" tipo_clase="novela" num_pag="50">
