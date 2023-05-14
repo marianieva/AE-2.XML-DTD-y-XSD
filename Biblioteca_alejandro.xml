@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "Biblioteca_alejandro.dtd">
+<biblioteca>
+    <libros>
+            <libro id="L0001" tipo_clase="novela" num_pags="170">
+                <titulo>El viaje interminable</titulo>
+                <capitulos>
+                    <capitulo num_pags="25">
+                        <contenido enlace="https://www.enlace.com/viaje_interminable/chapter_01.html"/>
+                    </capitulo>
+                    <capitulo num_pags="40">
+                        <contenido enlace="https://www.enlace.com/viaje_interminable/chapter_02.pdf"/>
+                    </capitulo>
+                    <capitulo num_pags="50">
+                        <contenido enlace="https://www.enlace.com/viaje_interminable/chapter_03.pdf"/>
+                    </capitulo>
+                </capitulos>
+                <indice>1. El viaje comienza||2. El viaje continúa.||3. Problemas iniciales||4. La gran aventura||5. Seguimos viajando.||6. El gran final.||7. Agradecimientos
+                </indice>
+                <sinopsis>"El viaje interminable" cuenta la historia de una mujer que decide dejar su vida atrás y embarcarse en una aventura de carretera interminable a través de América del Norte, tratando de encontrar respuestas sobre su propósito en la vida y su lugar en el mundo.</sinopsis>
+            </libro>
+
+            <libro id="L0002" tipo_clase="infantil" num_pags="85">
+                <titulo>Los juegos de TEO</titulo>
+                <capitulos>
+                    <capitulo num_pags="10">
+                        <contenido enlace="https://www.enlace.com/los_juegos_de_teo/chapter_01.pdf"/>
+                    </capitulo>
+                    <capitulo num_pags="11">
+                        <contenido enlace="https://www.enlace.com/los_juegos_de_teo/chapter_02.pdf"/>
+                    </capitulo>
+                    <capitulo num_pags="8">
+                        <contenido enlace="https://www.enlace.com/los_juegos_de_teo/chapter_03.pdf"/>
+                    </capitulo>
+                </capitulos>
+                <indice>TEO y sus amigos || 2. El juego de la pelota || 3. TEO y el tesoro escondido || 4. El concurso de saltos de cuerda || 5. TEO y el rompecabezas mágico || 6. La carrera de obstáculos || 7. El gran torneo de juegos || 8. ¡Fiesta de juegos en casa de TEO! || 9. Agradecimientos y despedida
+                </indice>
+                <sinopsis>"Los juegos de TEO" es un libro infantil lleno de aventuras emocionantes y juegos divertidos. El libro sigue a TEO y sus amigos mientras se divierten jugando pelota, buscando tesoros escondidos, participando en concursos de saltos de cuerda y resolviendo rompecabezas mágicos.
+                </sinopsis>
+            </libro> 
+
+            <libro id="L0003" tipo_clase="didactico" num_pags="325">
+                <titulo>Aprende Comunicacion Audiovisual como un profesional
+                </titulo>
+                <capitulos>
+                    <capitulo num_pags="40">
+                        <contenido enlace="https://www.enlace.com/aprende_com_audiovisual_como_profesional/chapter_01.pdf"/>
+                    </capitulo>
+                    <capitulo num_pags="35">
+                        <contenido enlace="https://www.enlace.com/aprende_com_audiovisual_como_profesional/chapter_02.pdf"/>
+                    </capitulo>
+                    <capitulo num_pags="32">
+                        <contenido enlace="https://www.enlace.com/aprende_com_audiovisual_como_profesional/chapter_03.pdf"/>
+                    </capitulo>
+                </capitulos>
+                <indice>Introducción a la comunicación audiovisual || 2. Fundamentos técnicos de la comunicación audiovisual || 3. Tipos de medios audiovisuales || 4. Planificación y organización de proyectos audiovisuales || 5. Dirección de fotografía || 6. Dirección de sonido || 7. Edición de vídeo || 8. Producción y postproducción de sonido || 9. La importancia de la música en la comunicación audiovisual || 10. Marketing y publicidad audiovisual || 11. Técnicas avanzadas de comunicación audiovisual || 12. Aplicaciones prácticas de la comunicación audiovisual || 13. Consideraciones éticas en la comunicación audiovisual || 14. Agradecimientos y despedida.
+                </indice>
+                <sinopsis>"Aprende Comunicacion Audiovisual como un profesional" es un libro que aborda desde los fundamentos técnicos hasta las técnicas avanzadas de la comunicación audiovisual, incluyendo la planificación, producción y postproducción de proyectos audiovisuales. Ideal para aquellos que deseen aprender a comunicar de manera efectiva a través de medios audiovisuales.
+                </sinopsis>
+            </libro>           
+    </libros>
+
+    <revistas>
+        <revista id="R0001" tipo_clase="informatica" num_pags="85">
+            <titulo>La vida del bit</titulo>
+            <num_revista>064</num_revista>
+            <indice>Portada||Grandes entrevistas||Las noticias más importantes||Curiosidades entre bits||Tú preguntas y un experto responde</indice>
+            <secciones_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lavidadelbit.com/064/seccion_entrevistas.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lavidadelbit.com/064/seccion_noticias.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lavidadelbit.com/064/seccion_curiosidades.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lavidadelbit.com/064/seccion_preguntas_lectores.pdf" />
+                </seccion_revista>                
+            </secciones_revista>
+        </revista>
+
+        <revista id="R0002" tipo_clase="corazon" num_pags="62">
+            <titulo>Papparazzi al ataque</titulo>
+            <num_revista>524</num_revista>
+            <indice>Portada||Sara anuncia boda con Juan||El gran final de Julian Canteros||Increible enfado entre Jacinta Flores y Teodora Vargas||Hector Freire y Carla Saras vistos en la playas de Cádiz||Anécdotas de la semana</indice>
+            <secciones_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paparazzi_al_ataque.com/num_524/boda_sara_juan.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paparazzi_al_ataque.com/num_524/final_julian_canteros.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paparazzi_al_ataque.com/num_524/enfado_jacinta_flores_Teodora_Vargas.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paparazzi_al_ataque.com/num_524/anecdotas_de_la_semana"/>
+                </seccion_revista>                
+            </secciones_revista>
+        </revista>
+
+        <revista id="R0003" tipo_clase="coches" num_pags="55">
+            <titulo>Quemando rueda</titulo>
+            <num_revista>124</num_revista>
+            <indice>Portada||Resumen de la semana||Nuevo Toyota Auris||Flamante Skoda Fabia Rally Edition||El futuro de los combustibles||Preguntas y respuestas</indice>
+            <secciones_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.quemandorueda.com/num_124/resumen_semanal.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.quemandorueda.com/num_124/nuevo_toyota_auris.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.quemandorueda.com/num_124/Skoda_Fabia_Rally_Edition.pdf" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.quemandorueda.com/num_124/Reportaje_futuro_combustibles"/>
+                </seccion_revista>                
+            </secciones_revista>
+        </revista>
+
+        <revista id="R0004" tipo_clase="investigacion" num_pags="85">
+            <titulo>La lupa inquieta</titulo>
+            <num_revista>074</num_revista>
+            <indice>Portada||El negocio de las apuestas deportivas||Comisiones por doquier en Murcia||La vida de un detective lowcost</indice>
+            <secciones_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lalupainquieta.com/num_074/apuestas_deportivas.html" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lalupainquieta.com/num_074/comisiones_por_doquier_Murcia.html" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.lalupainquieta.com/num_074/detective_lowcost.html" />
+                </seccion_revista>               
+            </secciones_revista>
+        </revista>
+
+        <revista id="R0005" tipo_clase="otras" num_pags="74">
+            <titulo>Las páginas de oro</titulo>
+            <num_revista>97</num_revista>
+            <indice>Portada||Mejores acciones para invertir en abril||Las criptomonedas más rentables y menos conocidas||Gestiona así tu patrimonio</indice>
+            <secciones_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paquinasdeoro.com/num_097/mejores_acciones_abril.html" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paquinasdeoro.com/num_097/criptomonedas_mas_rentables_desconocidas.html" />
+                </seccion_revista>
+                <seccion_revista>
+                    <contenido enlace="https://www.paquinasdeoro.com/num_097/gestionaasitypatrimonio.html" />
+                </seccion_revista>               
+            </secciones_revista>
+        </revista>
+    </revistas>
+
+    <periodicos>
+        <periodico id="P0001" tipo_clase="nacional" fecha_pub="10/01/2020">
+
+            <indice>Portada||Nacional||Internacional||Opinion||Deportes||Contraportada
+            </indice>
+
+            <secciones_periodico>
+                <seccion_periodico tipo_seccion="economica">
+                    <articulos>
+                        <articulo autor="Pedro.F">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Carla.X">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo2.html"/>
+                        </articulo>
+                        <articulo autor="Javier.L">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/economia/articulo3.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulos>
+                        <articulo autor="Arturo.C">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Maria.D">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo2.html"/>
+                        </articulo>
+                        <articulo autor="Dolores.L">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/deportes/articulo3.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="opinion">
+                    <articulos>
+                        <articulo autor="Laura.C">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/opinion/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Pablo.D">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/opinion/articulo2.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="internacional">
+                    <articulos>
+                        <articulo autor="Mikel.C">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/internacional/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Itziar.D">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/internacional/articulo2.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="nacional">
+                    <articulos>
+                        <articulo autor="Alejandro.C">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/nacional/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Miguel.D">
+                            <contenido enlace="https://www.elperiodicodelnorte.com/10-01-2020/nacional/articulo2.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+            </secciones_periodico>
+
+        </periodico>
+
+        <periodico id="P0002" tipo_clase="internacional" fecha_pub="10/08/2002">
+
+            <indice>Portada||Internacional||Opinion||Contraportada
+            </indice>
+
+            <secciones_periodico>
+                <seccion_periodico tipo_seccion="opinion">
+                    <articulos>
+                        <articulo autor="Pedro.F">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Carla.X">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo2.html"/>
+                        </articulo>
+                        <articulo autor="Javier.L">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo3.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+
+                <seccion_periodico tipo_seccion="opinion">
+                    <articulos>
+                        <articulo autor="Laura.C">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Pablo.D">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/opinion/articulo2.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="internacional">
+                    <articulos>
+                        <articulo autor="Mikel.C">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/internacional/articulo1.html"/>
+                        </articulo>
+                        <articulo autor="Itziar.D">
+                            <contenido enlace="https://www.miradainternacional.com/10-08-202/internacional/articulo2.html"/>
+                        </articulo>
+                    </articulos>
+                </seccion_periodico>
+
+            </secciones_periodico>
+
+        </periodico>
+
+    </periodicos>
+
+</biblioteca>
